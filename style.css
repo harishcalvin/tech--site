@@ -1,0 +1,41 @@
+body {
+    /* text-align: center; */
+    padding: 10%;
+    font: 20px Helvetica, sans-serif;
+    color: #333;
+}
+
+#logo {
+    font-size: 1.5rem;
+    position: absolute;
+    top: 10px;
+}
+
+h1 {
+    font-size: 50px;
+    margin: 0;
+}
+
+article {
+    display: block;
+    text-align: left;
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+.maintaince--text {
+    color: #686868;
+    line-height: 1.5;
+    font-size: 1.125rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 480px) {
+    .maintaince--body {
+        font-size: 35px;
+        padding-top: 30px;
+    }
+}
